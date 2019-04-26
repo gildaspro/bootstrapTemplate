@@ -1,0 +1,33 @@
+.head2{
+    height: 30%;
+    
+    background-image: url("assets/images/img1.jpg");
+
+    background-attachment:fixed;
+    background-repeat:no-repeat;  
+}
+.head2{
+ padding-top: 100px;
+ padding-bottom: 75px;
+ font-weight: lighter;
+
+}
+.header2{
+    margin-bottom:5%; 
+    font-size:50px; 
+}
+.countdown{
+    text-align:center;
+    margin-bottom:20px; 
+    margin-top: 5%; 
+}
+.btng{
+    padding-bottom:20px;
+    padding-top:  20px;
+}
+.testan{
+    background-image: url("assets/images/img1.jpg");
+    opacity: 0.9;
+    background-attachment:fixed;
+    background-repeat:no-repeat;  
+}
