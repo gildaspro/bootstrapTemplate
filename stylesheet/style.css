@@ -1,11 +1,7 @@
-.head2{
-    height: 30%;
-    
-    background-image: url("assets/images/img1.jpg");
 
-    background-attachment:fixed;
-    background-repeat:no-repeat;  
-}
+  }
+
+
 .head2{
  padding-top: 100px;
  padding-bottom: 75px;
@@ -20,14 +16,315 @@
     text-align:center;
     margin-bottom:20px; 
     margin-top: 5%; 
+    color: black !important;
+    font-weight: bold !important;
+    
+}
+.count{
+    font-size: 7rem !important;
 }
 .btng{
-    padding-bottom:20px;
-    padding-top:  20px;
+    padding: 20px;
+   font-size: 18px !important;
+   border-radius: 0 !important;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 12px !important;
+}
+.btn{
+    padding: 20px;
+   font-size: 18px !important;
+   border-radius: 0 !important;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 .testan{
     background-image: url("assets/images/img1.jpg");
+
     opacity: 0.9;
     background-attachment:fixed;
-    background-repeat:no-repeat;  
+    background-repeat:no-repeat; 
+   
 }
+#owl-demo div img{
+     min-width: 100%;
+     height:  100vh !important;
+     opacity: 0.95;
+     
+}
+
+#owl-demo {
+    position: relative;
+}
+#header-timer{
+  position: absolute;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  z-index: 10;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+.align-items-center{
+    align-items: center !important;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.mr-10{
+    margin-right: 10px;
+}
+.pt-50 {
+    padding-top: 50px;
+}
+@media (min-width: 768px) { 
+            
+    
+    
+#header-timer{
+               
+    
+            padding-top: 150px;
+            padding-bottom: 150px
+            
+            
+        } 
+            
+.mb-md-75{
+        
+           margin-bottom: 75px;
+            
+         }
+
+.mr-md-50{
+                  
+    
+           margin-right: 50px;
+
+         }
+                
+.mb-md-100{
+        
+           margin-bottom: 100px;
+            
+        }
+    
+               
+        
+.pt-md-100{
+                
+    
+            padding-top: 100px;
+              
+        }
+ 
+    
+    
+  }
+    
+    
+/*================================ header small device ==========================*/    
+  @media (max-width: 731px) { 
+ 
+ 
+    .mr{
+          margin-right: 30px
+    
+            }
+        
+ .light .dark , .dark  , .light .dark  , .dark  {
+     
+        font-family: 'OpenSans';
+        font-size: 14px;
+        line-height: 1.5;
+        color: #fff;
+   
+    }
+ 
+ 
+#owl-demo{
+        margin: 0 !important;
+    }
+      .light h3.dark, .dark h3, .light .dark h3, h3.dark {
+        font-family: 'Montserrat';
+        font-size: 36px;
+        font-weight: 100;
+        font-style: normal;
+        color: #fff;
+ 
+     }
+     p{
+        
+        color: goldenrod !important;
+       font-size: 22px;
+  
+    }
+
+    .p2{
+        font-size: 24px !important;
+        color: lightblue !important;
+    }
+    
+  
+  
+.titles{
+          font-size: 55px !important;
+          color: #fff;
+      
+        }
+
+    
+ #owl-demo div img{
+       
+    
+        min-width: 100%;
+        height:  120vh !important;
+        opacity: 0.95;
+        
+   
+   
+    }
+    
+
+
+
+}
+/*------------------end of small====================*/
+
+/*==================== dvice more than 575px===============*/
+@media (min-width: 575px) { 
+ 
+ 
+    .mr{
+          margin-right: 30px
+    
+            }
+        
+ .light .dark , .dark  , .light .dark  , .dark  {
+     
+        font-family: 'OpenSans';
+        font-size: 14px;
+        line-height: 1.5;
+        color: #fff;
+   
+    }
+ 
+ 
+#owl-demo{
+        margin: 0 !important;
+    }
+      .light h3.dark, .dark h3, .light .dark h3, h3.dark {
+        font-family: 'Montserrat';
+        font-size: 50px;
+        font-weight: 100;
+        font-style: normal;
+        color: #fff;
+ 
+     }
+  p{
+        
+        color: goldenrod !important;
+       font-size: 18px;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+    }
+
+    .p2{
+        font-size: 28px !important;
+    }
+    .p1{
+          margin-top: 4rem !important;
+        margin-bottom: 4rem !important;
+    }
+  
+  
+.titles{
+          font-size: 7rem !important;
+          font-weight: bold;
+          color: #fff;
+          margin-top: 3rem !important
+        }
+
+    
+ #owl-demo div img{
+       
+    
+       min-width: 100%;
+        height:  110vh !important;
+        opacity: 0.90;
+        
+   
+   
+    }
+    
+    
+
+
+}
+ /*============================= end  =========================    
+ /*============================== footer+++++++++++++++++++++++++++++++++++++++++++++++=*/
+ .form-control {
+     padding: 20px !important;
+     border-radius: 0 !important;
+     margin-top: 24px;
+     margin-bottom: 12px;
+     min-width: 5% !important;
+ }
+ .btn-submit{
+    padding: 6.5px !important;
+    margin-top: 24px;
+    margin-bottom: 12px;
+ }
+ footer{
+     
+     padding-top: 3% !important;
+     padding-bottom: 3% !important;
+     background-color: black;
+     opacity: 0.85;
+ }
+ .testan{
+    padding-top: 10% !important;
+    padding-bottom: 10% !important;
+    background-color: black;
+    opacity: 0.85;
+ }
+ .text-muted{
+   
+    margin-top: 12px;
+ }
+.footer-second-row{
+   padding-top: 5%;
+   margin-top: 5%;
+   border-top: 2px solid grey;
+}
+ ul{
+     margin-top: 25px;
+     margin-bottom: 12px;
+   
+ }
+ li{
+     margin-bottom: 11px;
+     margin: 11px !important;
+     list-style-type: none; 
+     margin-left: -12%!important; 
+     
+ }
+ .title{
+     color: #fff;
+     font-size: 16px;
+ }
+
+ /*================================ icon ===============================================*/
+ .icon{
+    font-size: 1.5rem;
+    
+ }
+ .icon:hover{
+     color:blue; 
+ }
+   
+ 
+ .footer-logo-text{
+     margin-top: -40px;
+ }
